@@ -13,8 +13,6 @@ message Book {
     string published = 6;
     int32 pages = 7;
     int32 status = 8; // 0-new, 1-reading, 2-finished,
-    string created_at = 9;
-    string updated_at = 10;
 }
 
 message CreateBookResponse {
