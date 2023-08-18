@@ -19,19 +19,12 @@ message BookListResponse {
     repeated BookData data = 1;
     bool is_ok = 2;
     string message = 3;
-}
-  
-  message BookData {
-    Book book = 1;
-    int32 status = 2;
   }
 
-message CreateBookResponse {
-    repeated BookData data = 1;
-    bool is_ok = 2;
-    string message = 3;
+message BookData {
+    Book book = 1;
+    int32 status = 2;
 }
-
 
 message CreateBook {
     string isbn = 1;
