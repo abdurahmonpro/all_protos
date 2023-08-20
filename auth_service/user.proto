@@ -35,7 +35,7 @@ message GetByName{
 }
 
 message UserPK {
-    int32 id = 1;UserWrongResponse
+    int32 id = 1;
 }
 
 message CheckUserRequest {
